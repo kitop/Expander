@@ -37,7 +37,7 @@ var Expander = (function(){
 			this.element = $(el);
 			
 			//setup shorted text
-			var originalText = this.element.innerHTML.trim(); //don't consider the initial and final spaces
+			var originalText = this.element.innerHTML.strip(); //don't consider the initial and final spaces
 			if(originalText.length < this.options.maxChars){ return; }
 		
 			var startText = originalText.slice(0, this.options.maxChars);
