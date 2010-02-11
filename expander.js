@@ -24,8 +24,8 @@ var Expander = (function(){
 		expandPrefix: '... ', //what to append the collapsed text
 		expandText: 'more', //text in the expanding link
 		collapsePrefix: ' ', //what to append the expanding text
-		collapseText: 'less', //text in the collapsing link
-	}
+		collapseText: 'less' //text in the collapsing link
+	};
 	
 	// Instance methods
 	Expander.prototype = {
